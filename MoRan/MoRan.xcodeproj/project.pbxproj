@@ -81,12 +81,9 @@
 		480837951B78F603004AC328 /* MoRan */ = {
 			isa = PBXGroup;
 			children = (
-				4808379A1B78F603004AC328 /* AppDelegate.h */,
-				4808379B1B78F603004AC328 /* AppDelegate.m */,
 				4808379D1B78F603004AC328 /* ViewController.h */,
 				4808379E1B78F603004AC328 /* ViewController.m */,
 				480837A01B78F603004AC328 /* Main.storyboard */,
-				480837A31B78F603004AC328 /* Images.xcassets */,
 				480837A51B78F603004AC328 /* LaunchScreen.xib */,
 				480837961B78F603004AC328 /* Supporting Files */,
 			);
@@ -96,6 +93,9 @@
 		480837961B78F603004AC328 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				480837A31B78F603004AC328 /* Images.xcassets */,
+				4808379A1B78F603004AC328 /* AppDelegate.h */,
+				4808379B1B78F603004AC328 /* AppDelegate.m */,
 				480837971B78F603004AC328 /* Info.plist */,
 				480837981B78F603004AC328 /* main.m */,
 			);
@@ -416,6 +416,7 @@
 				480837B81B78F603004AC328 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		480837B91B78F603004AC328 /* Build configuration list for PBXNativeTarget "MoRanTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +425,7 @@
 				480837BB1B78F603004AC328 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
