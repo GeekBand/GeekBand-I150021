@@ -8,10 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		480837B31B78F603004AC328 /* MoRanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 480837B21B78F603004AC328 /* MoRanTests.m */; };
+		487D990C1B7E30CB00544D32 /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 487D990B1B7E30CB00544D32 /* UIColor+Extend.m */; };
+		487D990F1B7E3A2500544D32 /* GBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 487D990E1B7E3A2500544D32 /* GBBaseViewController.m */; };
+		4885F65D1B8222B9005F5415 /* GBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4885F65C1B8222B9005F5415 /* GBTabBar.m */; };
 		48BEFFD11B7A4483000A8862 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BEFFBD1B7A4483000A8862 /* AppDelegate.m */; };
-		48BEFFD21B7A4483000A8862 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BEFFC01B7A4483000A8862 /* ViewController.m */; };
 		48BEFFD31B7A4483000A8862 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48BEFFCA1B7A4483000A8862 /* Images.xcassets */; };
 		48BEFFD61B7A4483000A8862 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BEFFD01B7A4483000A8862 /* main.m */; };
+		48C139A91B80D87900EA7074 /* GBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C139A81B80D87900EA7074 /* GBMainViewController.m */; };
+		48C139AD1B80D8F600EA7074 /* GBMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C139AC1B80D8F600EA7074 /* GBMyViewController.m */; };
+		48C139B11B80DB7100EA7074 /* GBSquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C139B01B80DB7100EA7074 /* GBSquareViewController.m */; };
+		48DB4C291B7CDD86008C8A3E /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48DB4C281B7CDD86008C8A3E /* Login.storyboard */; };
+		48DB4C301B7CE31E008C8A3E /* GBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DB4C2F1B7CE31E008C8A3E /* GBLoginViewController.m */; };
+		48DB4C321B7CF57A008C8A3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48DB4C311B7CF57A008C8A3E /* Main.storyboard */; };
+		48DB4C351B7CFEB5008C8A3E /* GBRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DB4C341B7CFEB5008C8A3E /* GBRegisterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,14 +38,29 @@
 		480837AC1B78F603004AC328 /* MoRanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoRanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		480837B11B78F603004AC328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		480837B21B78F603004AC328 /* MoRanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoRanTests.m; sourceTree = "<group>"; };
+		487D990A1B7E30CB00544D32 /* UIColor+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
+		487D990B1B7E30CB00544D32 /* UIColor+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extend.m"; sourceTree = "<group>"; };
+		487D990D1B7E3A2500544D32 /* GBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBBaseViewController.h; sourceTree = "<group>"; };
+		487D990E1B7E3A2500544D32 /* GBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBBaseViewController.m; sourceTree = "<group>"; };
+		4885F65B1B8222B9005F5415 /* GBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBTabBar.h; path = ../../../../../../../GBTabBar.h; sourceTree = "<group>"; };
+		4885F65C1B8222B9005F5415 /* GBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBTabBar.m; path = ../../../../../../../GBTabBar.m; sourceTree = "<group>"; };
 		48BEFFBC1B7A4483000A8862 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		48BEFFBD1B7A4483000A8862 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		48BEFFBF1B7A4483000A8862 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		48BEFFC01B7A4483000A8862 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		48BEFFCA1B7A4483000A8862 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		48BEFFCD1B7A4483000A8862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48BEFFCF1B7A4483000A8862 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48BEFFD01B7A4483000A8862 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48C139A71B80D87900EA7074 /* GBMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMainViewController.h; sourceTree = "<group>"; };
+		48C139A81B80D87900EA7074 /* GBMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMainViewController.m; sourceTree = "<group>"; };
+		48C139AB1B80D8F600EA7074 /* GBMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMyViewController.h; sourceTree = "<group>"; };
+		48C139AC1B80D8F600EA7074 /* GBMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMyViewController.m; sourceTree = "<group>"; };
+		48C139AF1B80DB7100EA7074 /* GBSquareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBSquareViewController.h; sourceTree = "<group>"; };
+		48C139B01B80DB7100EA7074 /* GBSquareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBSquareViewController.m; sourceTree = "<group>"; };
+		48DB4C281B7CDD86008C8A3E /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		48DB4C2E1B7CE31E008C8A3E /* GBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBLoginViewController.h; sourceTree = "<group>"; };
+		48DB4C2F1B7CE31E008C8A3E /* GBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBLoginViewController.m; sourceTree = "<group>"; };
+		48DB4C311B7CF57A008C8A3E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		48DB4C331B7CFEB5008C8A3E /* GBRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBRegisterViewController.h; sourceTree = "<group>"; };
+		48DB4C341B7CFEB5008C8A3E /* GBRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBRegisterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,8 +154,12 @@
 		48BEFFBE1B7A4483000A8862 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				48BEFFBF1B7A4483000A8862 /* ViewController.h */,
-				48BEFFC01B7A4483000A8862 /* ViewController.m */,
+				487D990D1B7E3A2500544D32 /* GBBaseViewController.h */,
+				487D990E1B7E3A2500544D32 /* GBBaseViewController.m */,
+				48C139A61B80D80500EA7074 /* Main */,
+				48C139AA1B80D8D000EA7074 /* My */,
+				48C139AE1B80DB5200EA7074 /* Square */,
+				48DB4C2D1B7CE31E008C8A3E /* Login */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -174,6 +202,8 @@
 		48BEFFC61B7A4483000A8862 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				487D990A1B7E30CB00544D32 /* UIColor+Extend.h */,
+				487D990B1B7E30CB00544D32 /* UIColor+Extend.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -181,6 +211,8 @@
 		48BEFFC71B7A4483000A8862 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4885F65B1B8222B9005F5415 /* GBTabBar.h */,
+				4885F65C1B8222B9005F5415 /* GBTabBar.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -205,7 +237,8 @@
 		48BEFFCB1B7A4483000A8862 /* XIBs */ = {
 			isa = PBXGroup;
 			children = (
-				48BEFFCC1B7A4483000A8862 /* Main.storyboard */,
+				48DB4C281B7CDD86008C8A3E /* Login.storyboard */,
+				48DB4C311B7CF57A008C8A3E /* Main.storyboard */,
 			);
 			path = XIBs;
 			sourceTree = "<group>";
@@ -217,6 +250,44 @@
 				48BEFFD01B7A4483000A8862 /* main.m */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48C139A61B80D80500EA7074 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				48C139A71B80D87900EA7074 /* GBMainViewController.h */,
+				48C139A81B80D87900EA7074 /* GBMainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		48C139AA1B80D8D000EA7074 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				48C139AB1B80D8F600EA7074 /* GBMyViewController.h */,
+				48C139AC1B80D8F600EA7074 /* GBMyViewController.m */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		48C139AE1B80DB5200EA7074 /* Square */ = {
+			isa = PBXGroup;
+			children = (
+				48C139AF1B80DB7100EA7074 /* GBSquareViewController.h */,
+				48C139B01B80DB7100EA7074 /* GBSquareViewController.m */,
+			);
+			path = Square;
+			sourceTree = "<group>";
+		};
+		48DB4C2D1B7CE31E008C8A3E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				48DB4C2E1B7CE31E008C8A3E /* GBLoginViewController.h */,
+				48DB4C2F1B7CE31E008C8A3E /* GBLoginViewController.m */,
+				48DB4C331B7CFEB5008C8A3E /* GBRegisterViewController.h */,
+				48DB4C341B7CFEB5008C8A3E /* GBRegisterViewController.m */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +370,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48DB4C321B7CF57A008C8A3E /* Main.storyboard in Resources */,
+				48DB4C291B7CDD86008C8A3E /* Login.storyboard in Resources */,
 				48BEFFD31B7A4483000A8862 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,9 +390,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48BEFFD21B7A4483000A8862 /* ViewController.m in Sources */,
+				487D990F1B7E3A2500544D32 /* GBBaseViewController.m in Sources */,
+				487D990C1B7E30CB00544D32 /* UIColor+Extend.m in Sources */,
+				48DB4C301B7CE31E008C8A3E /* GBLoginViewController.m in Sources */,
+				4885F65D1B8222B9005F5415 /* GBTabBar.m in Sources */,
 				48BEFFD61B7A4483000A8862 /* main.m in Sources */,
+				48DB4C351B7CFEB5008C8A3E /* GBRegisterViewController.m in Sources */,
+				48C139AD1B80D8F600EA7074 /* GBMyViewController.m in Sources */,
 				48BEFFD11B7A4483000A8862 /* AppDelegate.m in Sources */,
+				48C139A91B80D87900EA7074 /* GBMainViewController.m in Sources */,
+				48C139B11B80DB7100EA7074 /* GBSquareViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,17 +420,6 @@
 			targetProxy = 480837AD1B78F603004AC328 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		48BEFFCC1B7A4483000A8862 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				48BEFFCD1B7A4483000A8862 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		480837B41B78F603004AC328 /* Debug */ = {
@@ -437,6 +506,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "MoRan/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "MoRan/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
